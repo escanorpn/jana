@@ -2,6 +2,7 @@ import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBJumbotron, MDBIcon } from "mdbreact";
 import MenuLink from "./../components/menuLink";
 
+
 const AdvancedNavPage = () => {
   return (
     <MDBContainer>
