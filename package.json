@@ -1,0 +1,59 @@
+{
+  "name": "your-app",
+  "version": "0.1.0",
+  "homepage": "http://shuledigi.losenviskas.com/",
+  "private": true,
+  "// If You want to install mdbreact from our GitLab repository, please replace '4.18.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
+  "dependencies": {
+    "antd": "^3.25.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "customize-cra": "^0.8.0",
+    "enquire-js": "^0.2.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mdbreact": "4.18.0",
+    "rc-animate": "^2.10.2",
+    "rc-banner-anim": "^2.4.2",
+    "rc-drawer": "^3.0.2",
+    "rc-queue-anim": "^1.8.2",
+    "rc-scroll-anim": "^2.7.4",
+    "rc-table": "^6.9.5",
+    "rc-texty": "^0.2.0",
+    "rc-tween-one": "^2.6.5",
+    "react": "^16.11.0",
+    "react-app-rewired": "^2.1.5",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.11.0",
+    "react-headroom": "^3.0.0",
+    "react-image-magnifiers": "^1.2.1",
+    "react-image-slider": "^0.1.0",
+    "react-images": "^1.0.0",
+    "react-map-gl": "^5.1.2",
+    "react-masonry-component": "^6.2.1",
+    "react-multi-carousel": "^2.5.5",
+    "react-phone-input-2": "^2.11.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.0.1",
+    "react-sidebar": "^3.0.2",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test"
+  },
+  "devDependencies": {
+    "renamer": "^1.1.4",
+    "rimraf": "^2.7.1",
+    "babel-plugin-import": "^1.6.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
