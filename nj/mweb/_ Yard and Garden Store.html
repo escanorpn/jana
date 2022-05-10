@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:3000/checkout -->
+<html lang="en" class="fa-events-icons-loading"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  
+  <!-- Website title -->
+  <title>Checkout Page | Yard and Garden Store</title>
+  
+  <!-- CSS stylesheets -->
+  <link rel="stylesheet" href="./_ Yard and Garden Store_files/bootstrap.css">
+  <link rel="stylesheet" href="./_ Yard and Garden Store_files/bootstrap-select.css">
+  <link rel="stylesheet" href="./_ Yard and Garden Store_files/style.css">
+  <script type="text/javascript" defer="" async="" src="./_ Yard and Garden Store_files/uaest.js.download"></script><script src="./_ Yard and Garden Store_files/jquery.min.js.download"></script><link href="./_ Yard and Garden Store_files/6998e55726.css" media="all" rel="stylesheet"><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style></head>
+<body class="registration">
+  <!-- Header starts -->
+  <header class="site-header ">
+    <nav class="navbar-black navbar-fixed-top navbar-inside">
+      <div class="container">
+        <style>
+          .general-navbar{
+            top:34px;
+          }
+          .site-header {
+              display: block;
+              min-height: 90px;
+          }
+        </style>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="admin-header">
+          <div class="navbar-form navbar-left">
+            Welcome Admin  
+          </div>
+          <div class="navbar-form navbar-right">
+            <a href="http://localhost:3000/dashboard" class="dashboard-link" id="go-to-link" title="Go to dashboard">Go to Dashboard</a>
+          </div>
+        </div>
+  
+        </div><!-- /.navbar-collapse -->
+      <!-- /.container-fluid -->
+    </nav>
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inside general-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://localhost:3000/" id="navbar-logo" style="font-size:33px;">E and M Commerce</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="navbar-form navbar-left search-bar">
+              <input type="text" hidden="" id="navbar-list-items" value="[{&quot;_id&quot;:&quot;5cd40cd7c73bb014349c7348&quot;,&quot;departmentName&quot;:&quot;Women&quot;,&quot;categories&quot;:&quot;Basics,Blazer&quot;,&quot;__v&quot;:0},{&quot;_id&quot;:&quot;5cd40cd7c73bb014349c7349&quot;,&quot;departmentName&quot;:&quot;Men&quot;,&quot;categories&quot;:&quot;Knitwear,Jeans,Jackets&quot;,&quot;__v&quot;:0}]">
+              <form class="navbar-form navbar-left" role="search" method="post" action="http://localhost:3000/search">
+                <div class="form-group">
+                  <input autocomplete="off" type="text" class="form-control searchbox-textfield border-around" name="query" onkeyup="showResults(this.value)" placeholder="Search for product or category">
+                </div>
+                <button type="submit" class="btn btn-primary search-button-top"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <div class="product-search-wrapper">
+                  <div id="search-results" class="border-around"></div>
+                </div>
+              </form>
+            </div>
+            <ul class="nav navbar-nav navbar-right" id="main-navbar"><li class="dropdown"><a href="http://localhost:3000/checkout#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Men<span class="caret"></span></a><ul class="dropdown-menu" id="5cd40cd7c73bb014349c7349"><li><a href="http://localhost:3000/product-list/Men/Knitwear">Knitwear</a></li><li><a href="http://localhost:3000/product-list/Men/Jeans">Jeans</a></li><li><a href="http://localhost:3000/product-list/Men/Jackets">Jackets</a></li><li><a href="http://localhost:3000/product-list/Men">All Men Products</a></li></ul></li><li class="dropdown"><a href="http://localhost:3000/checkout#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Women<span class="caret"></span></a><ul class="dropdown-menu" id="5cd40cd7c73bb014349c7348"><li><a href="http://localhost:3000/product-list/Women/Basics">Basics</a></li><li><a href="http://localhost:3000/product-list/Women/Blazer">Blazer</a></li><li><a href="http://localhost:3000/product-list/Women">All Women Products</a></li></ul></li>
+              <li><a href="http://localhost:3000/">All Products</a></li>
+              <li><a href="http://localhost:3000/shopping-bag"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Shopping Bag <span class="badge">2</span></a></li>
+              <li class="dropdown user-info">
+                <a href="http://localhost:3000/checkout#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hello, Cuneyt Celebican<span class="caret"></span></a>
+                <ul class="dropdown-menu custom-navbar-dropdown">
+                  <li><a href="http://localhost:3000/order-history"><i class="fa fa-history" aria-hidden="true"></i> Order History</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="http://localhost:3000/users/logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+  
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+  </header>
+  <!-- Header ends -->
+  
+  <script>
+    var data = JSON.parse(document.getElementById("navbar-list-items").value)
+    for (let i = 0; i < data.length; i++)
+    {
+      if (data[i].categories)
+      {
+        var liDropdown = document.createElement("li");
+        liDropdown.setAttribute('class','dropdown')
+        
+        var dropdownLink = document.createElement("a");
+        dropdownLink.setAttribute('href','#')
+        dropdownLink.setAttribute('class','dropdown-toggle')
+        dropdownLink.setAttribute('data-toggle','dropdown')
+        dropdownLink.setAttribute('role','button')
+        dropdownLink.setAttribute('aria-haspopup','true')
+        dropdownLink.setAttribute('aria-expanded','false')
+        dropdownLink.appendChild(document.createTextNode(data[i].departmentName))
+  
+        var caret = document.createElement("span")
+        caret.setAttribute('class', 'caret')
+        dropdownLink.appendChild(caret)
+  
+        var categories = data[i].categories.split(",")
+  
+        var ul = document.createElement("ul");
+        ul.setAttribute('class', 'dropdown-menu')
+        ul.setAttribute('id', data[i]._id)
+  
+        // add all categories to dropdown
+        for (let x = 0; x < categories.length; x++)
+        {
+          var li = document.createElement("li");
+          var href = document.createElement("a");
+          href.setAttribute('href','/product-list/' + data[i].departmentName + "/" + categories[x])
+          href.appendChild(document.createTextNode(categories[x]))
+          li.appendChild(href)
+          ul.appendChild(li)
+        }
+  
+        // add all departments to dropdown
+        li = document.createElement("li");
+        href = document.createElement("a");
+        href.setAttribute('href','/product-list/' + data[i].departmentName)
+        href.appendChild(document.createTextNode("All " + data[i].departmentName + " Products"))
+        li.appendChild(href)
+        ul.appendChild(li)
+  
+        liDropdown.appendChild(dropdownLink)
+        liDropdown.appendChild(ul)
+        var element = document.getElementById("main-navbar")
+        element.insertBefore(liDropdown, element.firstChild);
+        //document.getElementById("main-navbar").appendChild(liDropdown);
+      }
+      else
+      {
+        // add department to navbar
+        var node = document.createElement("li");
+        var href = document.createElement("a");
+        href.setAttribute('href','/product-list/' + data[i].departmentName)
+        node.appendChild(href)
+        var textnode = document.createTextNode(data[i].departmentName);
+        href.appendChild(textnode);
+        var element = document.getElementById("main-navbar")
+        element.insertBefore(node, element.firstChild);
+      }
+      
+    }
+    
+  </script>  <div class="container">
+    <div class="error-messsages-ip">
+        <div class="row">
+    
+        </div>
+    </div>    <div class="row">
+    <div class="col-md-8 col-centered">
+        <div class="checout-logo"><a href="http://localhost:3000/"><img src="http://localhost:3000/images/logo.png"></a></div>
+        <div class="checkout-wrapper border-around rad5 pad20 white-box">
+           <div class="list-of-products">
+               <div class="checkout-title title">
+                    <h1>Checout</h1>
+                </div>
+               <div class="checkout-description">
+                   Hi <strong>Cuneyt Celebican,</strong> <br>
+                   Please review your items and press the pay button. You will enter your address information while your paying on PayPal 
+               </div>
+               <table class="table">
+                   <thead>
+                       <tr>
+                           <th class="text-left">Title</th>
+                           <th class="text-center">Qty</th>
+                           <th class="text-right">Price</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                           <tr>
+                               <td class="text-left">Belted Plaid Blazer</td>
+                               <td class="text-center">1</td>
+                               <td class="text-right">$79.99</td>
+                           </tr>
+                           <tr>
+                               <td class="text-left">Basic Slim Jeans</td>
+                               <td class="text-center">1</td>
+                               <td class="text-right">$45.99</td>
+                           </tr>
+                   </tbody>
+               </table>
+               <div class="discount-code-wrapper">
+                   <form action="http://localhost:3000/checkout/apply-discount" method="POST">
+                       <div class="discount-code"><span>Discount Code: </span><input type="text" name="discountCode" class="discount-form-control">
+                           <button type="submit" class="btn btn-danger">Apply</button>
+                       </div>
+                   </form>
+               </div>
+               <div class="payment-total-wrapper">
+                       <div class="total-amount"><span>Total: </span>$125.98</div>
+               
+                   
+               </div>
+                <form action="http://localhost:3000/checkout/checkout-process" method="POST">
+                    <div class="checkout-pay-wrapper">
+                        <div class="pay-button">
+                            <button type="submit" class="btn btn-primary pad10 full-width btn-success-only-border">Pay</button>
+                        </div>
+                    </div>
+                </form>
+           </div>
+        </div>
+    </div>
+</div>
+  </div>
+
+  <div class="container">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="copyright text-center">
+            <small>© 2018 yard &amp; garage | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> for the people of the COMP2406.</small>
+        </div>
+    </footer>  </div>
+  
+
+  <!-- Script files -->
+  <!-- Font Awesome -->
+  <script src="./_ Yard and Garden Store_files/font-awesome.js.download"></script>
+  <!-- Handlebars js -->
+  <script type="text/javascript" src="./_ Yard and Garden Store_files/handlebars-v4.0.11.js.download"></script>
+  <!-- Jquery -->
+  <script src="./_ Yard and Garden Store_files/jquery-1.11.3.js.download"></script>
+  <!-- JSlider -->
+  <script src="./_ Yard and Garden Store_files/jquery.superslides.js.download" type="text/javascript" charset="utf-8"></script>
+  <!-- Bootstrap -->
+  <script src="./_ Yard and Garden Store_files/bootstrap.js.download"></script>
+  <!-- Bootstrap Select -->
+  <script src="./_ Yard and Garden Store_files/bootstrap-select.js.download"></script>
+  <script src="./_ Yard and Garden Store_files/custom.js.download"></script>
+
+
+
+</body></html>
